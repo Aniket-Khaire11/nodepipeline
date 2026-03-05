@@ -1,0 +1,6 @@
+services:
+  web-app:
+    build: .
+    image: aniketkhaire11/cloudbatch:latest
+    ports:
+      - "9000:3000"
